@@ -132,7 +132,7 @@ nav > ul {
     color: #D97652;
 }
 
-.main-photo .list-photos {
+.main-photo .list-photos ,.load-photos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 88px 0 100px;
