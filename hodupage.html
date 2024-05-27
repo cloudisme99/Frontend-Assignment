@@ -112,7 +112,10 @@
         </ul>
     </footer>
 
+    <!--카카오 앱 키-->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=da46f955bb33fbcbf3d94e5f880f00e4"></script>
     <script>
+        // 이미지 로딩
         const loadPhotos = document.querySelector('.load-photos');
         const btn = document.querySelector('#morePhotos');
 
@@ -143,6 +146,22 @@
             })
         }
 
+        // 지도
+        const mapContainer = document.getElementById('map'),
+            mapOption = {
+                center: new kakao.maps.LatLng(33.450701, 126.570667),
+                level: 3
+            };
+
+        const map = new kakao.maps.Map(mapContainer, mapOption);
+
+        const markerPosition  = new kakao.maps.LatLng(33.450701, 126.570667);
+
+        const marker = new kakao.maps.Marker({
+            position: markerPosition
+        });
+
+        marker.setMap(map);
     </script>
 </body>
 </html>
