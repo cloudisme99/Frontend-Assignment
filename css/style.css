@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.orangeBtn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #D97652;
+    border-radius: 40px;
+    color: white;
+}
+
+/*header*/
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 320px;
+    max-height: 902px;
+    background-color: #F2E9D8;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.top-div {
+    background: url(../img/img_cat_png.png) bottom right no-repeat;
+    background-size: 415px;
+    height: 800px;
+    max-width: 1920px;
+    margin: 0 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.top-div > .top-txt-h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.top-div > .top-txt-p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*main*/
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    margin: 80px auto 0;
+}
+
+.main .main-start figure {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.main-start figcaption h2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-start figcaption p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main .main-photo {
+    margin: 120px 0 68px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.main-photo h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #D97652;
+    text-align: center;
+}
+
+.main-photo p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 88px;
+    text-align: center;
+}
+
+.orangeColor {
+    color: #D97652;
+}
+
+.main-photo .list-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 88px 0 100px;
+    gap: 72px;
+}
+
+.main-photo .box-morePhotos {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.main-photo .box-morePhotos .text-morePhotos {
+    margin-bottom: 43px;
+}
+
+.main-map{
+    margin: 68px 0 80px;
+}
+
+.main-map h2 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.main-map address {
+    margin-bottom: 40px;
+    font-style: normal;
+    color: #606367;
+}
+
+.main-map #map {
+    height: 520px;
+    background-color: #606367;
+}
