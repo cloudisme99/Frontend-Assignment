@@ -191,3 +191,37 @@ nav > ul {
     font-size: 14px;
     line-height: 18px;
 }
+
+.main-bottom .form-subscribe {
+    position: relative;
+    width: 530px;
+    height: 60px;
+}
+
+.main-bottom .form-subscribe::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 28px;
+    width: 24px;
+    height: 24px;
+    background: url('../img/mail.svg');
+    z-index: 1;
+}
+.main-bottom .form-subscribe input {
+    position: relative;
+    width: 530px;
+    padding: 20px 278px 20px 68px;
+    overflow: hidden;
+    border-radius: 60px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.main-bottom .form-subscribe .orangeBtn {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
