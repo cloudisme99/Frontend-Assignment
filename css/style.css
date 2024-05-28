@@ -84,8 +84,7 @@ nav > ul {
 .main {
     display: flex;
     flex-direction: column;
-    width: 660px;
-    margin: 80px auto 0;
+    margin: 80px 322px 0 320px;
 }
 
 .main .main-start figure {
@@ -168,5 +167,27 @@ nav > ul {
 
 .main-map #map {
     height: 520px;
-    background-color: #606367;
+    width: 1278px;
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 58px;
+    border-radius: 30px;
+    background-color: #263140;
+    color: #fff;
+}
+
+.main-bottom h3 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.main-bottom p {
+    font-size: 14px;
+    line-height: 18px;
 }
